@@ -270,19 +270,6 @@ TP2Tab:AddButton({
   	end    
 })
 
-TP2Tab:AddButton({
-	Name = "Revolver", 
-	Callback = function() 
-        local New_CFrame = CFrame.new(-643.327, 21.75, -133.73)
-        local ts = game:GetService('TweenService')
-        local char = game.Players.LocalPlayer.Character
-         
-        local part = char.HumanoidRootPart
-        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
-        local tp = {CFrame = New_CFrame}
-        ts:Create(part, ti, tp):Play()
-  	end    
-})
 
 TP2Tab:AddButton({
 	Name = "Revolver", 
@@ -368,11 +355,10 @@ TP2Tab:AddButton({
   	end    
 })
 
-CharacterTAB:AddToggle({
+CharacterTAB:AddButton({
 	Name = "Player ESP",
-	Default = false,
-	Callback = function(Value)
-		print(Value)
+	Callback = function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/raysterhub/ESP-Script/main/ESP%20SCRIPT")))()
 	end    
 })
 
