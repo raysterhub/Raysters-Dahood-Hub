@@ -1,0 +1,387 @@
+if game.PlaceId == 2788229376 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Rayster's Dahood Hub Nigger", HidePremium = false, IntroText = "Rayster Hub", SaveConfig = true, ConfigFolder = "PowConfig"})
+
+--Values
+_G.teleport1 = true
+
+
+--Functions
+
+
+function Teleport()
+     local New_CFrame = CFrame.new(-872.716, -38.3992, -593.545)
+local ts = game:GetService('TweenService')
+local char = game.Players.LocalPlayer.Character
+ 
+local part = char.HumanoidRootPart
+local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+local tp = {CFrame = New_CFrame}
+ts:Create(part, ti, tp):Play()
+end
+
+-- Tabs
+local TPTab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local TP2Tab = Window:MakeTab({
+	Name = "Teleports2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local SCRIPTTab = Window:MakeTab({
+	Name = "Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local CharacterTAB = Window:MakeTab({
+	Name = "Character",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+-- Buttons
+TPTab:AddButton({
+	Name = "Admin Base (Has Every Gun)",
+	Callback = function()
+        local New_CFrame = CFrame.new(-872.716, -38.3992, -593.545)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "Admin Base Second Area",
+	Callback = function()
+        local New_CFrame = CFrame.new(-798.806, -39.6492, -900.465)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+
+
+TPTab:AddButton({
+	Name = "Some Random Area",
+	Callback = function()
+        local New_CFrame = CFrame.new(-535.607, 7.55484, -811.575)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "Medium Armor",
+	Callback = function()
+        local New_CFrame = CFrame.new(-606.234, 10.3497, -796.041)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "High-Medium Armor",
+	Callback = function()
+        local New_CFrame = CFrame.new(-937.157, -25.4479, 567.88)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "FlowerShop",
+	Callback = function()
+        local New_CFrame = CFrame.new(-72.2239, 23.1363, -314.524)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "FlameThrower",
+	Callback = function()
+        local New_CFrame = CFrame.new(-153.553, 53.8106, -95.0901)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "Hood Fitness",
+	Callback = function()
+        local New_CFrame = CFrame.new(-76.917, 22.7003, -636.507)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TPTab:AddButton({
+	Name = "Hamburgers Stand",
+	Callback = function()
+        local New_CFrame = CFrame.new(-276.84, 22.6499, -805.579)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Top Of Da Bank",
+	Callback = function()
+        local New_CFrame = CFrame.new(-431.761, 38.9639, -285.146)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Inside Da Bank",
+	Callback = function()
+        local New_CFrame = CFrame.new(-480.274, 23.0943, -283.364)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Inside Da Bank Vault",
+	Callback = function()
+        local New_CFrame = CFrame.new(-507.756, 23.1687, -285.996)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "DownHill Guns",
+	Callback = function()
+        local New_CFrame = CFrame.new(-585.986, 22.757, -736.667)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Hospital",
+	Callback = function()
+        local New_CFrame = CFrame.new(103.132, 22.8, -479.78)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Fire Department", 
+	Callback = function()
+        local New_CFrame = CFrame.new(-143.731, 21.75, -122.949)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Da Furniture", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-492.03, 21.75, -126.875)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Revolver", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-643.327, 21.75, -133.73)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Revolver", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-643.327, 21.75, -133.73)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Police Station", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-267.721, 21.8, -114.655)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Da Central High School", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-593.127, 21.25, 220.317)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Da Casino/Theatre", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-946.47, 21.255, -173.211)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Foods Mart", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(-926.483, 21.255, -612.417)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+TP2Tab:AddButton({
+	Name = "Da Fair", 
+	Callback = function() 
+        local New_CFrame = CFrame.new(107.55, 24.755, -986.483)
+        local ts = game:GetService('TweenService')
+        local char = game.Players.LocalPlayer.Character
+         
+        local part = char.HumanoidRootPart
+        local ti = TweenInfo.new(0, Enum.EasingStyle.Linear)
+        local tp = {CFrame = New_CFrame}
+        ts:Create(part, ti, tp):Play()
+  	end    
+})
+
+CharacterTAB:AddToggle({
+	Name = "Player ESP",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+SCRIPTTab:AddButton({
+	Name = "Infinite Yield (ADMIN SCRIPTS)",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+end
+OrionLib:Init()
