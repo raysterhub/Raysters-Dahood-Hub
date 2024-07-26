@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Rayster's Dahood Hub Nigger", HidePremium = false, IntroText = "Rayster Hub", SaveConfig = true, ConfigFolder = "PowConfig"})
+local Window = OrionLib:MakeWindow({Name = "Tolu's A Nigger Hub", HidePremium = false, IntroText = "Rayster Hub", SaveConfig = true, ConfigFolder = "PowConfig"})
 
 --Values
 _G.teleport1 = true
